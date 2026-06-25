@@ -345,8 +345,9 @@ function hookSlide(slide) {
   const lineH    = Math.round(fontSize * 1.08);
   const lines    = parseHeadline(slide.headline);
 
+  const PILL_H     = 36;
   const pillY      = 152;
-  const headStartY = slide.isPill ? pillY + 56 + fontSize : 220;
+  const headStartY = slide.isPill ? pillY + PILL_H + 20 + fontSize : 220;
   const sublineY   = headStartY + lines.length * lineH + 52;
 
   let body = `
@@ -361,13 +362,13 @@ function hookSlide(slide) {
 <line x1="${W-24}" y1="${H-24}" x2="${W-24}" y2="${H-76}" stroke="${ACC}" stroke-width="2.5"/>`;
 
   if (slide.isPill && slide.stepLabel) {
-    const label = slide.stepLabel.toUpperCase();
-    const pillW = label.length * 9.4 + 44;
+    const label   = slide.stepLabel.toUpperCase();
+    const pillW   = label.length * 21 + 24;
     body += `
 <!-- Pill -->
-<rect x="${PAD}" y="${pillY}" width="${pillW}" height="36" rx="18" fill="${ACC}"/>
-<text x="${PAD + pillW / 2}" y="${pillY + 24}" font-family="TWKEverettMono" font-weight="500"
-      font-size="12" fill="white" text-anchor="middle" letter-spacing="2.2"
+<rect x="${PAD}" y="${pillY}" width="${pillW}" height="${PILL_H}" rx="18" fill="${ACC}"/>
+<text x="${PAD + pillW / 2}" y="${pillY + 28}" font-family="TWKEverettMono" font-weight="500"
+      font-size="28" fill="white" text-anchor="middle" letter-spacing="0"
       dominant-baseline="auto">${esc(label)}</text>`;
   }
 
