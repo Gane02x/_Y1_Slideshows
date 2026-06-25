@@ -1,0 +1,16 @@
+{
+  "name": "carousel",
+  "version": "1.0.0",
+  "description": "Y1 Instagram carousel renderer",
+  "main": "build-carousel.js",
+  "scripts": {
+    "install-deps": "npm install"
+  },
+  "keywords": [],
+  "author": "Y1 Digital AG",
+  "license": "UNLICENSED",
+  "type": "commonjs",
+  "dependencies": {
+    "sharp": "^0.35.2"
+  }
+}

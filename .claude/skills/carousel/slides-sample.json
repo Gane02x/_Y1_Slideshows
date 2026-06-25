@@ -1,0 +1,52 @@
+[
+  {
+    "name": "slide1-hook",
+    "slideNum": "01 / 06",
+    "stepLabel": "E-COMMERCE",
+    "headline": "Produktdaten sind<br>dein <span class=\"accent\">stärkster</span><br>Wachstumshebel.",
+    "subline": "WIE STRUKTURIERTE PRODUKTDATEN DEINEN UMSATZ STEIGERN",
+    "activateLabel": "",
+    "terminal": "",
+    "character": "",
+    "isPill": true,
+    "isHook": true,
+    "illustration": "Einkaufswagen-Cart",
+    "illustrationType": "fein"
+  },
+  {
+    "name": "slide2-content",
+    "slideNum": "02 / 06",
+    "stepLabel": "SCHRITT 01",
+    "headline": "Schlechte Daten<br><span class=\"accent\">kosten</span> dich<br>täglich Umsatz.",
+    "subline": "DAS PROBLEM, DAS DIE MEISTEN SHOPS IGNORIEREN",
+    "activateLabel": "Was passiert ohne Produktdaten-Strategie",
+    "terminal": "<div class=\"t-line\"><span class=\"check\">✗</span> Falsche Attribute → Produkte tauchen nicht auf</div><div class=\"t-line\"><span class=\"check\">✗</span> Fehlende Bilder → Kaufabbrüche steigen</div><div class=\"t-line\"><span class=\"check\">✗</span> Inkonsistente Texte → SEO-Potenzial verpufft</div><div class=\"t-line\"><span class=\"arrow\">→</span> Ergebnis: <span class=\"cmd\">Conversion sinkt</span>, Retouren steigen</div>",
+    "character": "",
+    "illustration": "server-1",
+    "illustrationType": "grob"
+  },
+  {
+    "name": "slide3-content",
+    "slideNum": "03 / 06",
+    "stepLabel": "SCHRITT 02",
+    "headline": "Ein zentrales PIM<br>ändert <span class=\"accent\">alles</span>.",
+    "subline": "SINGLE SOURCE OF TRUTH FÜR ALLE PRODUKTDATEN",
+    "activateLabel": "Was ein PIM konkret liefert",
+    "terminal": "<div class=\"t-line\"><span class=\"check\">✓</span> Ein Datensatz – alle Kanäle aktuell</div><div class=\"t-line\"><span class=\"check\">✓</span> Automatische Übersetzung in 40+ Sprachen</div><div class=\"t-line\"><span class=\"check\">✓</span> AI-generierte Produkttexte in Sekunden</div><div class=\"t-line\"><span class=\"check\">✓</span> Compliance-ready für jeden Marktplatz</div>",
+    "character": "",
+    "illustration": "zahnraeder",
+    "illustrationType": "grob"
+  },
+  {
+    "name": "slide6-cta",
+    "slideNum": "",
+    "stepLabel": "",
+    "headline": "",
+    "subline": "",
+    "activateLabel": "",
+    "terminal": "",
+    "character": "",
+    "isCTA": true,
+    "ctaKeyword": "Produktdaten"
+  }
+]

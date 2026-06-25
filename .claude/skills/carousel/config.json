@@ -1,0 +1,26 @@
+{
+  "brandName": "Y1",
+  "handle": "@y1digital",
+  "niche": "E-Commerce Agency — complete integration of shop, PIM, DAM, CMS and AI, developed and operated under one roof",
+  "voice": "Direct, no-fluff. We get straight to the point and tell it like it is. We use 'you' without being overly familiar. We speak to decision-makers at mid-market to enterprise e-commerce brands — no fluff, just results.",
+  "profilePic": "",
+  "colors": {
+    "bg": "#f1f3f4",
+    "text": "#000000",
+    "accent": "#ff78ba"
+  },
+  "fonts": {
+    "headline": "TWK Everett",
+    "mono": "TWK Everett Mono"
+  },
+  "characters": [],
+  "slideSize": { "width": 1080, "height": 1440 },
+  "copyRules": {
+    "dashes": "EN-dash (–) only — never EM-dash (—)",
+    "language": "German",
+    "tone": "Direct, no-fluff. Decision-maker audience. No hedging."
+  },
+  "deliveryPath": "/mnt/c/Users/CHANGE_ME/Downloads",
+  "setupComplete": true,
+  "setupDate": "2026-06-23"
+}
